@@ -1,0 +1,568 @@
+/* set position for header image */
+#banner {
+    width:100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+/* set size and position of logo on Home Page */
+.container {
+    width: 130px;
+    position: absolute;
+    top: 0px;
+    left: 596px;
+}
+
+.container img {
+    width: 100%;
+    height: auto;
+}
+
+/* Position shopping cart image */
+#cart {
+    z-index: 0;
+    width:1%;
+    position:relative;
+}
+
+#toprighticons {
+    float:right;
+    width:10%;
+}
+
+/* Position wish list image */
+#wish {
+    position: relative;
+    max-width: 1%;
+}
+
+/* set size and position of logo on Flavor Options page */
+.circle {
+    width: 130px;
+    position: absolute;
+    top: 0px;
+    left: 596px;
+    visibility: visible;
+    z-index: 0;
+}
+
+.circle img {
+    width: 100%;
+    height: auto;
+}
+
+/* set size and position of logo on Product Page */
+.container3 {
+    width: 130px;
+    position: absolute;
+    top: 0px;
+    left: 596px;
+}
+
+.container3 img {
+    width: 100%;
+    height: auto;
+}
+
+/* set style for navigation bar */
+#nav {
+    width: 100%;
+    position: absolute;
+    top: 130px;
+    left: 0px;
+    float: left;
+    background-color: rgb(255,105,180);
+    text-align: center;
+}
+
+#nav ul {
+    list-style: none;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+#nav li {
+    float: left;
+    padding: 0px 25px;
+}
+
+/* set style for links inside navigation bar */
+#nav li a {
+    text-align: center;
+    display: block;
+    padding: 10px 76px;
+    text-decoration: none;
+    font-family: "Century Gothic";
+    font-weight: lighter;
+    font-size: 20px;
+    color: white;
+}
+
+/* removes hyperlink style from link that can be clicked */
+a {
+    color: black;
+    text-decoration: none;
+}
+
+/* change color of the navigation bar links when hovered over */
+#nav li a:hover {
+    color: rgb(255,105,180);
+    background-color: white;
+}
+
+/* font */
+@font-face {
+    font-family: KG Shake it Off;
+    src: KGShakeitOff.ttf;
+}
+
+/* set style of gallery */
+div.gallery {
+    margin: 5px;
+    border: 3px solid rgb(200, 200, 200);
+    float: left;
+    width: 180px;
+    top: 190px;
+    margin-top: 205px;
+    margin-bottom: -185px;
+}
+
+/* change color of gallery items when hovered over */
+div.gallery:hover {
+    border: 3px solid;
+    border-color: rgb(255,105,180);
+    opacity: .7;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+/* set style of description text under each photo on flavors page */
+div.description {
+    text-align: left;
+    left: 400px;
+    font-family: "Century Gothic";
+    background-color: rgb(220,220,220);
+    font-size: 16px;
+
+    text-decoration: none;
+}
+
+/* sets background of pages with photo */
+body {
+    background: url(images/wood.jpg);
+}
+
+/* sets position of photo on home page */
+#bun {
+    position: absolute;
+    right: 0px;
+    top: 175px;
+}
+
+/* sets position of photo on product page */
+#maple {
+    position: relative;
+    left: 20px;
+    top: 190px;
+    width: 500px;
+    height: 500px;
+    border: 5px solid;
+    border-color: white;
+}
+
+/* sets style of header on product detail page */
+h6 {
+    position: absolute;
+    text-align: left;
+    top: 150px;
+    left: 600px;
+    width: 100%;
+    font-family: "KG Shake it Off";
+    color: white;
+    font-size: 28px;
+}
+
+/* sets style of body text on product detail page */
+h7 {
+    position: absolute;
+    top: 260px;
+    left: 600px;
+    width: 100%;
+    font-family: "Century Gothic";
+    color: #4C291A;
+    font-size: 20px;
+}
+
+/* styling for radio buttons on size selection*/
+form {
+    position: absolute;
+    top: 410px;
+    left: 600px;
+    font-family: "Century Gothic";
+}
+
+/* styling for dropdown menu on quantity selection*/
+select {
+    position: absolute;
+    left: 600px;
+    font-family: "Century Gothic";
+    font-size: 15px;
+}
+
+/* sets style of text on home page */
+h5 {
+    position: absolute;
+    top: 170px;
+    left: 18px;
+    width: 100%;
+    font-family: "KG Shake it Off";
+    color: #4C291A;
+    font-size: 20px;
+    font-style: lighter;
+}
+
+h4 {
+    position: absolute;
+    top: 220px;
+    left: 18px;
+    font-size: 20px;
+    font-family: "Century Gothic";
+    color: #4C291A;
+    font-weight: lighter;
+}
+
+.quant {
+    position: absolute;
+    left: 600px;
+    font-family: "Century Gothic";
+    font-size: 15px;
+}
+
+#flavor1 {
+    position: absolute;
+    font-family: "Century Gothic";
+    font-size: 15px;
+    left: 900px;
+    top: 495px;
+}
+
+#flavor2 {
+    position: absolute;
+    font-family: "Century Gothic";
+    font-size: 15px;
+    left: 900px;
+    top: 415px;
+}
+
+#flav1 {
+    position: absolute;
+    font-family: "Century Gothic";
+    font-size: 20px;
+    left: 900px;
+    top: 380px;
+}
+
+#numbers {
+    top: 532px;
+}
+
+#flav2 {
+    position: absolute;
+    font-family: "Century Gothic";
+    font-size: 20px;
+    left: 900px;
+    top: 460px;
+}
+
+/* set style for Add to Cart buton on product detail page */
+.addtocart {
+    position: absolute;
+    left: 600px;
+    top: 600px;
+    background-color: rgb(255,105,180);
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    font-family: "KG Shake it Off";
+    border-radius: 20px;
+    list-style: none;
+    font-color: white;
+    padding-left: -20px;
+}
+
+/* set style for Add to Cart buton on product detail page */
+.proceedtocheckout {
+    position: absolute;
+    left: 850px;
+    top: 200px;
+    background-color: rgb(255,105,180);
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    font-family: "KG Shake it Off";
+    border-radius: 20px;
+}
+
+.addtowish {
+    position: absolute;
+    left: 820px;
+    top: 600px;
+    background-color: rgb(255,105,180);
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    font-family: "KG Shake it Off";
+    border-radius: 20px;
+}
+
+.extra {
+    position: absolute;
+    top: 400px;
+    left: 900px;
+    font-family: "Century Gothic";
+    font-size: 20px;
+}
+
+.icon {
+    max-height: 50px;
+}
+
+.selection_image {
+    position: absolute;
+    top: 300px;
+    left: 0px;
+    font-family: "Century Gothic";
+    font-size: 20px;
+}
+.selection_name {
+    position: absolute;
+    top: 400px;
+    left: 0px;
+    font-family: "Century Gothic";
+    font-size: 20px;
+}
+
+.selection_name2 {
+    position: absolute;
+    top: 420px;
+    left: 0px;
+    font-family: "Century Gothic";
+    font-size: 20px;
+}
+
+.selection_quant {
+    position: absolute;
+    top: 440px;
+    left: 0px;
+    font-family: "Century Gothic";
+    font-size: 20px;
+}
+
+.selection_size {
+    position: absolute;
+    top: 460px;
+    left: 0px;
+}
+
+.selection_price {
+    position: absolute;
+    top: 480px;
+    left: 0px;
+}
+
+.remove {
+    position: absolute;
+    top: 500px;
+    left: 0px;
+}
+
+#amountincart {
+    position: absolute;
+    z-index:101;
+    left: 1242px ;
+    color: white;
+    font-family: "Century Gothic";
+}
+
+.cart_container {
+    position: absolute;
+    width: 100%;
+    left: 0px;
+    margin-top: 265px;
+    /*top: 265px;*/
+    font-family: "Century Gothic";
+}
+
+#flavorOrigCart {
+    position: absolute;
+    margin-left: 100px;
+    margin-top: -50px;
+    font-weight: bolder;
+    display: inline-block;
+    padding-top: 95px;
+    padding-left: 245px;
+}
+
+#flavorAcart {
+    position: absolute;
+    margin-left: 80px;
+    margin-top:20px;
+    display: inline-block;
+    left: 365px;
+    padding-top: 50px;
+}
+
+#flavorBcart {
+    position: absolute;
+    margin-left: -80px;
+    margin-top: -100px;
+    display: inline-block;
+    left: 526px;
+    padding-top: 195px;
+}
+
+#quantCart {
+    position: absolute;
+    margin-left: 70px;
+    width: 10px;
+    display: inline-block;
+    padding-top: 45px;
+}
+
+#priceCart {
+    position: absolute;
+    font-size: 24px;
+    margin-left: 140px;
+    width: 100px;
+    display: inline-block;
+    left: 542px;
+    padding-top: 39px;
+    padding-left: 3px;
+}
+
+#sizeCart {
+    position: absolute;
+    margin-left: 100px;
+    margin-top: -50px;
+    display: inline-block;
+    padding-top: 95px;
+    padding-left: 99px;
+}
+
+.finalpics {
+    width: 50px;
+    height: 50px;
+    margin-top: 30px;
+    margin-left: 50px;
+    padding-bottom: 20px;
+}
+
+.cya {
+    position: absolute;
+    margin-left: 30px;
+    left: 20px;
+    font-family: "Century Gothic";
+    left: 750px;
+    margin-top: 45px;
+}
+
+#quantityheader {
+    position: absolute;
+    top: 260px;
+    left: 163px;
+    font-family: "Century Gothic";
+    font-weight: bold;
+}
+
+#sizeheader {
+    position: absolute;
+    top: 260px;
+    left: 299px;
+    font-family: "Century Gothic";
+    font-weight: bold;
+}
+
+#flavorsheader {
+    position: absolute;
+    top: 260px;
+    left: 447px;
+    font-family: "Century Gothic";
+    font-weight: bold;
+}
+
+#priceheader {
+    position: absolute;
+    top: 260px;
+    left: 687px;
+    font-family: "Century Gothic";
+    font-weight: bold;
+}
+
+#mainheader {
+    position: absolute;
+    top: 200px;
+    left: 50px;
+    color: white;
+    font-family: "KGShakeitOff";
+    font-size: 30px;
+}
+
+#confirmationtext {
+    position: absolute;
+    top: 250px;
+    font-family: "Century Gothic";
+    font-size: 30px;
+    left: 360px;
+}
+
+.continueshopping {
+    position: absolute;
+    left: 420px;
+    top: 350px;
+    background-color: rgb(255,105,180);
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    list-style: none;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    font-family: "KG Shake it Off";
+    border-radius: 20px;
+}
+
+.viewcart {
+    position: absolute;
+    left: 750px;
+    top: 350px;
+    background-color: rgb(255,105,180);
+    border: none;
+    font-color: white;
+    list-style: none;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    font-family: "KG Shake it Off";
+    border-radius: 20px;
+}
+

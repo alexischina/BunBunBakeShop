@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="buns.css" media="screen"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/buns.js"></script>
+    <!--LINK FONT HERE-->
+</head>
+
+<body>
+    <!--Insert the Header Image-->
+    <div id="banner">
+        <img src="images/homepagebanner.jpg" style="height:130px">
+        <!--Image retrieved from XXX-->
+    </div>
+
+    <!--Insert the Logo Image-->
+    <div class="container3">
+        <img src="images/Logo.png">
+        <!--Image created in Adobe Illustrator-->
+    </div>
+
+    <div id = "toprighticons">
+        <!--Insert Shopping Cart icon-->
+        <div id="cart">
+            <a href="cart.html">
+            <img class = "icon" src="images/cart.png"/></a>
+            <!--Image retrieved from XXX-->
+        </div>
+
+        <!--Insert Wish List icon-->
+        <div id="wish">
+            <a href="wish.html">
+            <img class = "icon" src="images/heart.png"/></a>
+            <!--Image retrieved from XXX-->
+        </div>
+    </div>
+
+    <!--Insert Navigation Bar-->
+    <div id="nav">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="flavors.html">Flavors</a></li>
+            <li><a href="order.html">Order</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+
+    <div id="amountincart">
+    </div>
+
+    <!--Insert Description Text-->
+    <h6 id="mainname"> Maple Apple Pecan </h6>
+    <h7> This delicious combination of maple, apple, cinnamon, and pecan
+        <br> pieces is a blessing to the tastebuds. Like all of our buns, our bakery
+        <br> team takes the utmost care when preparing this treat to ensure
+        <br> the most savory experience possible every time.
+        <br>
+        <br> Select Size:
+        <br>
+        <br>
+        <br>
+        <br>
+        <br> Select Quantity:
+    </h7>
+
+    <!--Insert photo on page-->
+    <img src="images/MAPLEAPPLEPECAN.jpg" id="maple">
+    <!--Image retrieved from XXX-->
+    </div>
+
+    <!--Insert radio buttons to select size-->
+    <form action="">
+        <input type="radio" name="a" value="Individual" checked="checked"> Individual ($0.99) <br>
+        <input type="radio" name="a" value="6-Pack"> 6-Pack ($4.99)<br>
+        <input type="radio" name="a" value="12-Pack"> 12-Pack ($8.99)
+    </form>
+
+    <!--Insert dropdown list to select quantity-->
+    <select id="numbers">
+        <option value="Select Quanity">Select Here</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+    </select>
+
+    <container id="flav1">
+        Select additional flavor:
+        <br>
+        <br>
+        <br>
+        Select additional flavor:
+    </container>
+
+    <!--Insert dropdown list to first flavor-->
+    <select id="flavor1">
+        <option value="N/A">Select Here</option>
+        <option value="Bacon">Bacon</option>
+        <option value="Blackberry">Blackberry</option>
+        <option value="Birthday Cake">Birthday Cake</option>
+        <option value="Caramel Pecan">Caramel Pecan</option>
+        <option value="Carrot Cake">Carrot Cake</option>
+        <option value="Cranberry">Cranberry</option>
+        <option value="Lemon Lavender">Lemon Lavender</option>
+        <option value="Old Fashioned Buttermilk">Old Fashioned Buttermilk</option>
+        <option value="Original">Original</option>
+        <option value="Original (Gluten Free)">Original (Gluten Free)</option>
+        <option value="Original (Vegan)">Original (Vegan)</option>
+        <option value="Pumpkin Spice">Pumpkin Spice</option>
+        <option value="Strawberry Rhubarb">Strawberry Rhubarb</option>
+        <option value="Walnut">Walnut</option>
+    </select>
+
+    <!--Insert dropdown list to second flavor-->
+    <select id="flavor2">
+        <option value="N/A">Select Here</option>
+        <option value="Bacon">Bacon</option>
+        <option value="Blackberry">Blackberry</option>
+        <option value="Birthday Cake">Birthday Cake</option>
+        <option value="Caramel Pecan">Caramel Pecan</option>
+        <option value="Carrot Cake">Carrot Cake</option>
+        <option value="Cranberry">Cranberry</option>
+        <option value="Lemon Lavender">Lemon Lavender</option>
+        <option value="Old Fashioned Buttermilk">Old Fashioned Buttermilk</option>
+        <option value="Original">Original</option>
+        <option value="Original (Gluten Free)">Original (Gluten Free)</option>
+        <option value="Original (Vegan)">Original (Vegan)</option>
+        <option value="Pumpkin Spice">Pumpkin Spice</option>
+        <option value="Strawberry Rhubarb">Strawberry Rhubarb</option>
+        <option value="Walnut">Walnut</option>
+    </select>
+
+    <!--Add to Cart Button-->
+    <button class="addtocart">
+        <ul><a href="confirmation.html">Add to Cart</a>
+    </button>
+
+    <!--Add to Wishlist Button-->
+    <button class="addtowish">Add to Wishlist</button>
+
+</body>
+
+</html>
+
