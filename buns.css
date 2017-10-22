@@ -112,7 +112,7 @@ a {
     background-color: white;
 }
 
-/* font */
+/* Links font used throughout site  */
 @font-face {
     font-family: KG Shake it Off;
     src: KGShakeitOff.ttf;
@@ -175,7 +175,7 @@ body {
     border-color: white;
 }
 
-/* sets style of header on product detail page */
+/* sets style of header on Product Detail page */
 h6 {
     position: absolute;
     text-align: left;
@@ -187,7 +187,7 @@ h6 {
     font-size: 28px;
 }
 
-/* sets style of body text on product detail page */
+/* sets style of body text on Product Detail page */
 h7 {
     position: absolute;
     top: 260px;
@@ -198,7 +198,7 @@ h7 {
     font-size: 20px;
 }
 
-/* styling for radio buttons on size selection*/
+/* styling for radio buttons on size selection on Product Detail page */
 form {
     position: absolute;
     top: 410px;
@@ -206,7 +206,7 @@ form {
     font-family: "Century Gothic";
 }
 
-/* styling for dropdown menu on quantity selection*/
+/* styling for dropdown menu on quantity selection on Product Detail page*/
 select {
     position: absolute;
     left: 600px;
@@ -236,6 +236,7 @@ h4 {
     font-weight: lighter;
 }
 
+/* Sets position and style for Quantity dropdown menu on Product Detail page */
 .quant {
     position: absolute;
     left: 600px;
@@ -243,6 +244,7 @@ h4 {
     font-size: 15px;
 }
 
+/* Sets position and style for first Additional flavor dropdown menu on Product Detail page */
 #flavor1 {
     position: absolute;
     font-family: "Century Gothic";
@@ -251,6 +253,7 @@ h4 {
     top: 495px;
 }
 
+/* Sets position and style for second Additional flavor dropdown menu on Product Detail page */
 #flavor2 {
     position: absolute;
     font-family: "Century Gothic";
@@ -259,6 +262,7 @@ h4 {
     top: 415px;
 }
 
+/* Sets position and style for headers relating to Additional flavor dropdown menu on Product Detail page */
 #flav1 {
     position: absolute;
     font-family: "Century Gothic";
@@ -279,7 +283,7 @@ h4 {
     top: 460px;
 }
 
-/* set style for Add to Cart buton on product detail page */
+/* set style for Add to Cart buton on Product Detail page */
 .addtocart {
     position: absolute;
     left: 600px;
@@ -299,7 +303,7 @@ h4 {
     padding-left: -20px;
 }
 
-/* set style for Add to Cart buton on product detail page */
+/* set style for Add to Cart buton on Product Detail page */
 .proceedtocheckout {
     position: absolute;
     left: 850px;
@@ -316,22 +320,6 @@ h4 {
     border-radius: 20px;
 }
 
-/*.addtowish {
-    position: absolute;
-    left: 820px;
-    top: 600px;
-    background-color: rgb(255,105,180);
-    border: none;
-    color: white;
-    padding: 10px 25px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 18px;
-    font-family: "KG Shake it Off";
-    border-radius: 20px;
-}*/
-
 .extra {
     position: absolute;
     top: 400px;
@@ -344,55 +332,13 @@ h4 {
     max-height: 50px;
 }
 
-.selection_image {
-    position: absolute;
-    top: 300px;
-    left: 0px;
-    font-family: "Century Gothic";
-    font-size: 20px;
-}
-.selection_name {
-    position: absolute;
-    top: 400px;
-    left: 0px;
-    font-family: "Century Gothic";
-    font-size: 20px;
-}
-
-.selection_name2 {
-    position: absolute;
-    top: 420px;
-    left: 0px;
-    font-family: "Century Gothic";
-    font-size: 20px;
-}
-
-.selection_quant {
-    position: absolute;
-    top: 440px;
-    left: 0px;
-    font-family: "Century Gothic";
-    font-size: 20px;
-}
-
-.selection_size {
-    position: absolute;
-    top: 460px;
-    left: 0px;
-}
-
-.selection_price {
-    position: absolute;
-    top: 480px;
-    left: 0px;
-}
-
 .remove {
     position: absolute;
     top: 500px;
     left: 0px;
 }
 
+/* Sets position and style for number indicating amount of items in cart (on all pages) */
 #amountincart {
     position: absolute;
     z-index:101;
@@ -401,15 +347,16 @@ h4 {
     font-family: "Century Gothic";
 }
 
+/* Creates container for items in cart on Cart page */
 .cart_container {
     position: absolute;
     width: 100%;
     left: 0px;
     margin-top: 265px;
-    /*top: 265px;*/
     font-family: "Century Gothic";
 }
 
+/* Creates position and style for main flavor content on Cart page*/
 #flavorOrigCart {
     position: absolute;
     margin-left: 100px;
@@ -420,6 +367,7 @@ h4 {
     padding-left: 245px;
 }
 
+/* Creates position and style for first Additional Flavor content on Cart page*/
 #flavorAcart {
     position: absolute;
     margin-left: 80px;
@@ -429,6 +377,7 @@ h4 {
     padding-top: 50px;
 }
 
+/* Creates position and style for second Additional Flavor content on Cart page*/
 #flavorBcart {
     position: absolute;
     margin-left: -80px;
@@ -438,6 +387,7 @@ h4 {
     padding-top: 195px;
 }
 
+/* Creates position and style for Quantity content on Cart page*/
 #quantCart {
     position: absolute;
     margin-left: 70px;
@@ -446,6 +396,7 @@ h4 {
     padding-top: 45px;
 }
 
+/* Creates position and style for Price content on Cart page*/
 #priceCart {
     position: absolute;
     font-size: 24px;
@@ -457,6 +408,7 @@ h4 {
     padding-left: 3px;
 }
 
+/* Creates position and style for Size content on Cart page*/
 #sizeCart {
     position: absolute;
     margin-left: 100px;
@@ -466,6 +418,7 @@ h4 {
     padding-left: 99px;
 }
 
+/* Creates position and style for pictures on Cart page*/
 .finalpics {
     width: 50px;
     height: 50px;
@@ -474,6 +427,7 @@ h4 {
     padding-bottom: 20px;
 }
 
+/* Creates position and style for Remove buttons on Cart page*/
 .cya {
     position: absolute;
     margin-left: 30px;
@@ -483,6 +437,7 @@ h4 {
     margin-top: 45px;
 }
 
+/* Creates position and style for Quantity header on Cart page*/
 #quantityheader {
     position: absolute;
     top: 260px;
@@ -491,6 +446,7 @@ h4 {
     font-weight: bold;
 }
 
+/* Creates position and style for Size header on Cart page*/
 #sizeheader {
     position: absolute;
     top: 260px;
@@ -499,6 +455,7 @@ h4 {
     font-weight: bold;
 }
 
+/* Creates position and style for Flavors header on Cart page*/
 #flavorsheader {
     position: absolute;
     top: 260px;
@@ -507,6 +464,7 @@ h4 {
     font-weight: bold;
 }
 
+/* Creates position and style for Price header on Cart page*/
 #priceheader {
     position: absolute;
     top: 260px;
@@ -515,6 +473,7 @@ h4 {
     font-weight: bold;
 }
 
+/* Creates position and style for main header on Cart page*/
 #mainheader {
     position: absolute;
     top: 200px;
@@ -524,6 +483,7 @@ h4 {
     font-size: 30px;
 }
 
+/* Creates position and style for confirmation text on Confirmation page */
 #confirmationtext {
     position: absolute;
     top: 250px;
@@ -532,6 +492,7 @@ h4 {
     left: 470px;
 }
 
+/* Creates position and style for Continue Shopping button on Confirmation page*/
 .continueshopping {
     position: absolute;
     left: 420px;
@@ -549,6 +510,7 @@ h4 {
     border-radius: 20px;
 }
 
+/* Creates position and style for View Cart button on Confirmation page*/
 .viewcart {
     position: absolute;
     left: 750px;
